@@ -1,0 +1,5 @@
+demo-gradle-aot/build/
+demo-gradle-kts-aot/build/
+demo-maven-aot/target/
+.gradle/
+.idea/
