@@ -20,6 +20,9 @@ Data points for the [Spring Data JDBC variant of Petclinic](https://github.com/s
 
 ## Configuration
 
+### Spring profiles
+It is possible to use Spring profiles with the AOT mode but you need to enable them at build time if they change the beans of the application context, see [this documentation and samples](https://github.com/sdeleuze/demo-profile-aot#how-can-i-use-an-environment-specific-spring-profile-like-the-prod-one) for more details.
+
 ### Maven
 
 Add the following profile to your `pom.xml`:
