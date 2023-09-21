@@ -65,6 +65,10 @@ See `demo-maven-aot` related sample.
 
 Add `id("org.springframework.boot.aot")` plugin then configure:
 ```kotlin
+import org.springframework.boot.gradle.tasks.bundling.BootBuildImage
+
+// ...
+
 tasks.named<BootBuildImage>("bootBuildImage") {
     environment.set(mapOf(
         "BPE_DELIM_JAVA_TOOL_OPTIONS" to " ",
